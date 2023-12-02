@@ -1,0 +1,156 @@
+*{
+    /* background-color: aquamarine; */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+
+.dash-container{
+    background-color: rgb(233, 239, 245);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.dash-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.dash-value{
+    background-color: aliceblue;
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    height: 100px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 3px 2px 3px rgb(63, 66, 58);
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.dash-value:hover{
+    transform: translate(-5px);
+}
+.dash-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+/* here is style for DURATION INFO FLEX */
+
+.Duration-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 50px;
+}
+.Duration-info .duration{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.time-spend{
+    margin-top: 20px;   
+}
+.week{
+    display:flex;
+    /* justify-content:center; */
+    /* align-items: center; */
+    /* position: relative;    */
+    gap:5px;
+}
+.week .time-percentage{
+    /* position: relative; */
+    color: blue;
+
+}
+
+
+
+/* here is style for COURSES PROGRESS FLEX */
+.course-progress{
+    display: flex;
+    flex-direction: column;
+}
+.course-progress .percentage{
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage{
+    margin-bottom: 20px;
+}
+
+.week .progress-percentage{
+    /* position: relative; */
+    color: rgb(255, 0, 13);
+
+}
+
+/* here is style for ASSIGNMENT FLEX */
+.assignment{
+    display: flex;
+    flex-direction: column;
+}
+.assignment .number{
+     font-size: 20px;
+    font-weight: bold;
+}
+
+.number{
+    margin-bottom: 20px;
+} 
+
+.week .weekly-number{
+    /* position: relative; */
+    color: blue;
+
+}
+ 
+/* for my icons */
+.icon1{
+    font-size: 30px;
+    color:rgb(94, 94, 201) ;
+    padding: 6px;
+    border-radius:6px ;
+    background-color: rgb(223, 247, 239);
+}
+.icon2{
+    font-size: 30px;
+    color:rgb(201, 167, 94) ;
+    padding: 6px;
+    border-radius:6px ;
+    background-color: rgb(238, 247, 208);
+}
+.icon3{
+    font-size: 30px;
+    color:rgb(201, 94, 121) ;
+    padding: 6px;
+    border-radius:6px ;
+    background-color: rgb(243, 231, 239);
+}
+
+
+
+/* .light-purple{
+    background: rgb(238, 220, 236);
+}
+.light-yellow{
+    background: rgb(223, 205, 156);
+    
+}
+.sky-blue{
+    background: rgb(204, 208, 212);
+} */
